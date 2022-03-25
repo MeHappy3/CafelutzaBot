@@ -10,6 +10,7 @@ bot=telebot.TeleBot(API_KEY)
 markup = types.ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
 itembtn1 = types.KeyboardButton("Cafelutza")
 markup.add(itembtn1)
+addresses = []
 @bot.message_handler(commands=['start'])
 def tasta (message):
     bot.send_message(message.chat.id, "Bot-ul de cafelutza este online" , reply_markup=markup)
