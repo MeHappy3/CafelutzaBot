@@ -5,7 +5,7 @@ import random
 from telebot import types
 import datetime
 from telegram.ext import Updater
-API_KEY = '5145338469:AAF4jo1tc08zzCJ0R8jODNoBAnWsE1VkrK8'
+API_KEY = ''
 bot=telebot.TeleBot(API_KEY)
 markup = types.ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
 itembtn1 = types.KeyboardButton("Cafelutza")
