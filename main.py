@@ -11,12 +11,6 @@ markup = types.ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
 itembtn1 = types.KeyboardButton("Cafelutza")
 markup.add(itembtn1)
 addresses = []
-addresses.append(5180262266)
-addresses.append(5217008189)
-addresses.append(1593723463)
-updater=Updater(token=API_KEY, use_context=True)
-dispatcher = updater.dispatcher
-j = updater.job_queue
 mesaj = []
 @bot.message_handler(commands=['start'])
 def tasta (message):
